@@ -33,7 +33,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src={picture}
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />

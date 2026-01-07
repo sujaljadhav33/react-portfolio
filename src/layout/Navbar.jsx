@@ -34,7 +34,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          <span className="text-amber-300">Sujal</span> Jadhav<span className="text-primary">.</span>
+          <span className="text-cyan-500">Sujal</span> Jadhav<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Nav */}
