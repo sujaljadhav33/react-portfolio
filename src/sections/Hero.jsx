@@ -8,12 +8,13 @@ import {
   Download,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+import picture from "../../public/Images/portfolio-pic2.png"
 
 const skills = [
   "React",
-  "Next.js",
-  "TypeScript",
   "Node.js",
+  "JavaScript",
+  "J-Query",
   "GraphQL",
   "PostgreSQL",
   "MongoDB",
@@ -22,10 +23,6 @@ const skills = [
   "AWS",
   "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
   "Git",
   "GitHub Actions",
 ];
@@ -132,7 +129,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src={picture}
                   alt="Sujal jadhav"
                   className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
