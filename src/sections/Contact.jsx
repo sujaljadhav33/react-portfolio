@@ -14,13 +14,13 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
+    value: "sujaljadhav2703@gmail.com",
     href: "mailto:pedro@example.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
+    value: "+91-9653610369",
     href: "tel:+15551234567",
   },
   {
