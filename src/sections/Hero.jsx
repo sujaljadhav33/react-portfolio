@@ -6,9 +6,11 @@ import {
   Linkedin,
   Twitter,
   Download,
+  Instagram,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
-import picture from "../../public/Images/portfolio-pic2.png"
+import picture from "../../public/Images/portfolio-pic2.png";
+import picture2 from "../../public/Images/programming-img.jpg";
 
 const skills = [
   "React",
@@ -31,14 +33,14 @@ export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
-      <div className="absolute inset-0">
+      {/* <div className="absolute inset-0">
         <img
-          src={picture}
+          src={picture2}
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background" />
-      </div>
+      </div> */}
 
       {/* Green Dots */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -91,10 +93,10 @@ export const Hero = () => {
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
+                <a href="#contact">Contact Me</a> <ArrowRight className="w-4 h-4" />
               </Button>
               <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
+                <Download className="w-4 h-4" />
                 Download CV
               </AnimatedBorderButton>
             </div>
@@ -103,9 +105,9 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
+                { icon: Github, href: "https://github.com/sujaljadhav33" },
                 { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Instagram, href: "https://www.instagram.com/____sujal__2704?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
               ].map((social, idx) => (
                 <a
                   key={idx}
