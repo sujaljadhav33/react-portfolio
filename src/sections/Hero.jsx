@@ -10,8 +10,6 @@ import {
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import picture from "../../public/Images/portfolio-pic2.png";
-import picture2 from "../../public/Images/programming-img.jpg";
-
 const skills = [
   "React",
   "Node.js",
@@ -33,6 +31,7 @@ export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
+      
       {/* <div className="absolute inset-0">
         <img
           src={picture2}
