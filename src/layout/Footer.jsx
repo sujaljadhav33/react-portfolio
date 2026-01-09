@@ -1,9 +1,9 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Twitter, Heart, Instagram } from "lucide-react";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/sujaljadhav33", label: "GitHub" },
   { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Instagram, href: "https://www.instagram.com/____sujal__2704?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Twitter" },
 ];
 
 const footerLinks = [

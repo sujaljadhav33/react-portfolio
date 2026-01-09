@@ -1,4 +1,7 @@
-const experiences = [
+import React from "react";
+export const Experience = () => {
+
+  const experiences = [
   {
     period: "2022 — Present",
     role: "Senior Frontend Engineer",
@@ -37,7 +40,6 @@ const experiences = [
   },
 ];
 
-export const Experience = () => {
   return (
     <section id="experience" className="py-32 relative overflow-hidden">
       <div

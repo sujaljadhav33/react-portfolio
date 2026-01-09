@@ -15,12 +15,10 @@ const skills = [
   "Node.js",
   "JavaScript",
   "J-Query",
-  "GraphQL",
-  "PostgreSQL",
   "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
+  "HTML",
+  "CSS",
+  "MYSQL",
   "Vercel",
   "Tailwind CSS",
   "Git",
@@ -145,12 +143,16 @@ export const Hero = () => {
                   </div>
                 </div>
                 {/* Stats Badge */}
-                <div className="absolute -top-4 -left-4 glass rounded-xl px-2 py-1 animate-float animation-delay-500">
+
+                {/* remove fresher  tag on hero section */}
+
+                {/* <div className="absolute -top-4 -left-4 glass rounded-xl px-2 py-1 animate-float animation-delay-500">
                   <div className="text-xl font-bold text-primary">Fresher</div>
                   <div className="text-xs text-muted-foreground">
                     
                   </div>
-                </div>
+                </div> */}
+
               </div>
             </div>
           </div>
