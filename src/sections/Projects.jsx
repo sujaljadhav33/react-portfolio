@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["React", "Typescript", "NodeJS"],
     link: "#",
-    github: "#",
+    github: "https://github.com/sujaljadhav33",
   },
   {
     title: "E-Commerce Platform",
@@ -17,7 +17,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "#",
-    github: "#",
+    github: "https://github.com/sujaljadhav33",
   },
   {
     title: "AI Writing Assistant",
@@ -26,16 +26,16 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
     link: "#",
-    github: "#",
+    github: "https://github.com/sujaljadhav33",
   },
   {
-    title: "Project Management Tool",
+    title: "Fun-Travel Website",
     description:
       "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
+    image: "../../public/images/imge.png",
     tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+    link: "https://sujaljadhav33.github.io/Fun-Travel/",
+    github: "https://github.com/sujaljadhav33",
   },
 ];
 
@@ -70,8 +70,7 @@ export const Projects = () => {
             <div
               key={idx}
               className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
-              style={{ animationDelay: `${(idx + 1) * 100}ms` }}
-            >
+              style={{ animationDelay: `${(idx + 1) * 100}ms` }}>
               {/* Image */}
               <div className="relative overflow-hidden aspect-video">
                 <img

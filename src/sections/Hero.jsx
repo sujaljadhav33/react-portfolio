@@ -11,17 +11,17 @@ import {
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import picture from "../../public/Images/portfolio-pic2.png";
 const skills = [
-  "React",
-  "Node.js",
-  "JavaScript",
-  "J-Query",
   "MongoDB",
+  "Node.js",
+  "J-Query",
+  "React",
   "HTML",
   "CSS",
-  "MYSQL",
-  "Vercel",
+  "JavaScript",
   "Tailwind CSS",
+  "MYSQL",
   "Git",
+  "Vercel",
   "GitHub Actions",
 ];
 
