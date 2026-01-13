@@ -29,7 +29,7 @@ export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
-      
+
       {/* <div className="absolute inset-0">
         <img
           src={picture2}
@@ -48,9 +48,8 @@ export const Hero = () => {
               backgroundColor: "#20B2A6",
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
-              animation: `slow-drift ${
-                15 + Math.random() * 20
-              }s ease-in-out infinite`,
+              animation: `slow-drift ${15 + Math.random() * 20
+                }s ease-in-out infinite`,
               animationDelay: `${Math.random() * 5}s`,
             }}
           />
@@ -92,10 +91,17 @@ export const Hero = () => {
               <Button size="lg">
                 <a href="#contact">Contact Me</a> <ArrowRight className="w-4 h-4" />
               </Button>
-              <AnimatedBorderButton Download src="../../public/images/Sujal Jadhav Resume.pdf">
-                <Download className="w-4 h-4" />
-                Download CV
-              </AnimatedBorderButton>
+              <a
+                href="../../public/images/Sujaljadhav-Resume.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer">
+
+                <AnimatedBorderButton>
+                  <Download className="w-4 h-4" />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
@@ -103,7 +109,7 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: Github, href: "https://github.com/sujaljadhav33" },
-                { icon: Linkedin, href: "#" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/sujal-jadhav-1591182a6/" },
                 { icon: Instagram, href: "https://www.instagram.com/____sujal__2704?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
               ].map((social, idx) => (
                 <a

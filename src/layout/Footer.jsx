@@ -2,8 +2,8 @@ import { Github, Linkedin, Twitter, Heart, Instagram } from "lucide-react";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/sujaljadhav33", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Instagram, href: "https://www.instagram.com/____sujal__2704?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Twitter" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/sujal-jadhav-1591182a6/", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/____sujal__2704?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Instagram" },
 ];
 
 const footerLinks = [
