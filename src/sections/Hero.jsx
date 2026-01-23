@@ -92,7 +92,7 @@ export const Hero = () => {
                 <a href="#contact">Contact Me</a> <ArrowRight className="w-4 h-4" />
               </Button>
               <a
-                href="../../public/images/Sujaljadhav-Resume.pdf"
+                href="../../public/images/SujalJadhav-resume.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer">
