@@ -14,7 +14,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce shoping website. ",
-    image: "../../public/images/Myntra.png",
+    image: '/Images/Myntra.png',
     tags: ["React", "JavaScript", "HTML", "Tailwind"],
     link: "https://myntra-clone-three-neon.vercel.app/",
     github: "https://github.com/sujaljadhav33",
@@ -34,7 +34,7 @@ const projects = [
     title: "Fun-Travel Website",
     description:
       "frontend ui workspace for travel website with real-time updates.",
-    image: "../../public/images/Funtravelimg.webp",
+    image: "/Images/Funtravelimg.webp",
     tags: ["JavaScript", "HTML", "CSS"],
     link: "https://sujaljadhav33.github.io/Fun-Travel/",
     github: "https://github.com/sujaljadhav33",

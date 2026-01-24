@@ -7,7 +7,7 @@ export const Experience = () => {
     role: "Learning fullStack development in java",
     company: "Net Tech india",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
+      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage",
     technologies: ["React", "JavaScript", "HTML", "CSS" ,"java"],
     current: true,
   },
