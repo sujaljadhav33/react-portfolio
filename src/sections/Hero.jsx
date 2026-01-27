@@ -8,6 +8,7 @@ import {
   Download,
   Instagram,
 } from "lucide-react";
+import resume from "../assets/SujalJadhav-resume.pdf";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import picture from "../../public/Images/portfolio-pic2.png";
 const skills = [
@@ -92,7 +93,7 @@ export const Hero = () => {
                 <a href="#contact">Contact Me</a> <ArrowRight className="w-4 h-4" />
               </Button>
               <a
-                href="/Images/SujalJadhav-resume.pdf"
+                href={resume}
                 download
                 target="_blank"
                 rel="noopener noreferrer">
