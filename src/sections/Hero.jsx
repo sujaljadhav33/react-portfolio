@@ -8,7 +8,7 @@ import {
   Download,
   Instagram,
 } from "lucide-react";
-import resume from "../assets/sujal_jadhavCV.pdf";
+import resume from "../assets/sujal jadhav CV pdf.pdf";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import picture from "../../public/Images/portfolio-pic2.png";
 const skills = [
